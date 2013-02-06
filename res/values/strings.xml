@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpeedTest-Reflection</string>
+    <string name="menu_settings">Settings</string>
+    <string name="reflect">Reflection</string>
+    <string name="hash">HashMap</string>
+    <string name="direct">Direct</string>
+
+</resources>

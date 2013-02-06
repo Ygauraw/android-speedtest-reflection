@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        >
+	    <TextView
+	        android:id="@+id/text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:padding="5dp"
+	        />
+    </ScrollView>
+    
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+        >
+	    <Button 
+		    android:layout_width="0px"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/reflect"
+		    android:onClick="onReflect"
+	        />
+	    <Button 
+		    android:layout_width="0px"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/hash"
+		    android:onClick="onHash"
+	        />
+	    <Button 
+		    android:layout_width="0px"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/direct"
+		    android:onClick="onDirect"
+	        />
+	</LinearLayout>
+
+</LinearLayout>
